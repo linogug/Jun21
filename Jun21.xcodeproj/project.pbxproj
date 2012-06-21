@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0455AD015916918007F1411 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0455ACF15916918007F1411 /* icon.png */; };
+		F0455ADF1592B529007F1411 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F0455ADE1592B529007F1411 /* Default.png */; };
 		F0D696EB15900E8E0057228A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D696EA15900E8E0057228A /* UIKit.framework */; };
 		F0D696ED15900E8E0057228A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D696EC15900E8E0057228A /* Foundation.framework */; };
 		F0D696EF15900E8E0057228A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D696EE15900E8E0057228A /* CoreGraphics.framework */; };
 		F0D696F515900E8E0057228A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0D696F315900E8E0057228A /* InfoPlist.strings */; };
 		F0D696F715900E8E0057228A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D696F615900E8E0057228A /* main.m */; };
 		F0D696FB15900E8E0057228A /* Jun21AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D696FA15900E8E0057228A /* Jun21AppDelegate.m */; };
+		F0D6970B15900FE10057228A /* MyNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D6970A15900FE10057228A /* MyNewView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0455ACF15916918007F1411 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F0455ADE1592B529007F1411 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F0D696E615900E8E0057228A /* Jun21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jun21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D696EA15900E8E0057228A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0D696EC15900E8E0057228A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0D696EE15900E8E0057228A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0D696F215900E8E0057228A /* Jun21-Info.plist */ = {isa = PBXFileReference; path = "Jun21-Info.plist"; sourceTree = "<group>"; };
+		F0D696F215900E8E0057228A /* Jun21-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jun21-Info.plist"; sourceTree = "<group>"; };
 		F0D696F415900E8E0057228A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0D696F615900E8E0057228A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0D696F815900E8E0057228A /* Jun21-Prefix.pch */ = {isa = PBXFileReference; path = "Jun21-Prefix.pch"; sourceTree = "<group>"; };
-		F0D696F915900E8E0057228A /* Jun21AppDelegate.h */ = {isa = PBXFileReference; path = Jun21AppDelegate.h; sourceTree = "<group>"; };
+		F0D696F815900E8E0057228A /* Jun21-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jun21-Prefix.pch"; sourceTree = "<group>"; };
+		F0D696F915900E8E0057228A /* Jun21AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jun21AppDelegate.h; sourceTree = "<group>"; };
 		F0D696FA15900E8E0057228A /* Jun21AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jun21AppDelegate.m; sourceTree = "<group>"; };
+		F0D6970915900FE10057228A /* MyNewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNewView.h; sourceTree = "<group>"; };
+		F0D6970A15900FE10057228A /* MyNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNewView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,10 @@
 			children = (
 				F0D696F915900E8E0057228A /* Jun21AppDelegate.h */,
 				F0D696FA15900E8E0057228A /* Jun21AppDelegate.m */,
+				F0D6970915900FE10057228A /* MyNewView.h */,
+				F0D6970A15900FE10057228A /* MyNewView.m */,
+				F0455ACF15916918007F1411 /* icon.png */,
+				F0455ADE1592B529007F1411 /* Default.png */,
 				F0D696F115900E8E0057228A /* Supporting Files */,
 			);
 			path = Jun21;
@@ -142,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0D696F515900E8E0057228A /* InfoPlist.strings in Resources */,
+				F0455AD015916918007F1411 /* icon.png in Resources */,
+				F0455ADF1592B529007F1411 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +167,7 @@
 			files = (
 				F0D696F715900E8E0057228A /* main.m in Sources */,
 				F0D696FB15900E8E0057228A /* Jun21AppDelegate.m in Sources */,
+				F0D6970B15900FE10057228A /* MyNewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +269,7 @@
 				F0D6970015900E8E0057228A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

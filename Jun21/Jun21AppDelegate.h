@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MyNewView;
 
 @interface Jun21AppDelegate : UIResponder <UIApplicationDelegate>
+{
+	MyNewView	 *view1;
+	UIWindow *_window;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
